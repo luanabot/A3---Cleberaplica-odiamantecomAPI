@@ -12,7 +12,8 @@ Sistema de controle de estoque para o armazém **Diamante**, desenvolvido com **
 - MySQL  
 - Lombok  
 - Swagger (OpenAPI)  
-- Maven  
+- Maven
+- XAMPP
 
 ---
 
