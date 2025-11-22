@@ -65,6 +65,7 @@ GET	/api/movimentacoes	Listar todas as movimentações
 GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto  
 
 📦 Exemplo de JSON para cadastro de produto
+```json
 {
   "codigo": "1234",
   "nome": "Produto A",
