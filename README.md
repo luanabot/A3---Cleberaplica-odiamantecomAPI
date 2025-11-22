@@ -19,18 +19,18 @@ Sistema de controle de estoque para o armazém **Diamante**, desenvolvido com **
 
 ## ⚙️ Pré-requisitos
 
-- Java 21 ou superior  
-- Maven 3.8+  
-- MySQL 8+  
+- Java 21 
+- Maven 3.8
+- MySQL 8
 - IDE (IntelliJ IDEA, Eclipse ou VS Code)  
 
 ---
 
-Configure o banco de dados no arquivo application.properties (ou application.yml):
+Configure o banco de dados no arquivo application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/estoque_diamante
 spring.datasource.username=root
-spring.datasource.password=1234
+spring.datasource.password=123456
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
@@ -42,13 +42,9 @@ CREATE DATABASE estoque_diamante;
 
 ▶️ Executando a aplicação
 
-No terminal ou IDE, execute:
-
-mvn spring-boot:run
-
+Run: EstoqueDiamanteApplication.java
 
 A aplicação será iniciada em http://localhost:8080
-.
 
 📌 Testando a API com Swagger
 
@@ -67,6 +63,7 @@ PATCH	/api/produtos/{id}/baixa	Dar baixa no estoque
 PATCH	/api/produtos/{id}/repor	Repor estoque
 GET	/api/movimentacoes	Listar todas as movimentações
 GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto
+
 📦 Exemplo de JSON para cadastro de produto
 {
   "codigo": "1234",
@@ -80,10 +77,11 @@ GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto
 📉 Exemplo de JSON para dar baixa no estoque
 {
   "quantidade": 1,
-  "responsavel": "Fulano"
+  "responsavel": "Luana"
 }
 
 💾 Banco de dados
+
 Tabela produto
 Coluna	Tipo
 id	BIGINT (PK)
@@ -101,6 +99,7 @@ tipo	ENUM (ENTRADA, SAIDA)
 quantidade	INT
 responsavel	VARCHAR
 data_movimentacao	TIMESTAMP
+
 ✅ Funcionalidades
 
 Cadastro, atualização e exclusão de produtos
