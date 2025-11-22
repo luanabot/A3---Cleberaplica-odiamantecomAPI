@@ -74,16 +74,18 @@ GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto
   "quantidadeEstoque": 10,
   "estoqueMinimo": 3
 }
-
+```
 📉 Exemplo de JSON para dar baixa no estoque
+```json
 {
   "quantidade": 1,
   "responsavel": "Luana"
 }
-
+```
 💾 Banco de dados
 
 Tabela produto
+
 Coluna	Tipo
 id	BIGINT (PK)
 descricao	VARCHAR
@@ -92,7 +94,9 @@ estoque_minimo	INT
 quantidade_estoque	INT
 data_atualizacao	TIMESTAMP
 data_cadastro	TIMESTAMP
+
 Tabela movimentacao
+
 Coluna	Tipo
 id	BIGINT (PK)
 produto_id	BIGINT (FK)
@@ -110,8 +114,6 @@ Controle de estoque (entrada e saída)
 Consulta de estoque baixo
 
 Registro de movimentações (entrada e saída)
-
-API documentada via Swagger
 
 📌 Observações
 
