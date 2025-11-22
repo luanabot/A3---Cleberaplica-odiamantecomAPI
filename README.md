@@ -54,15 +54,15 @@ http://localhost:8080/swagger-ui/index.html
 
 📌 Endpoints principais
 Método	Endpoint	Descrição
-POST	/api/produtos	Cadastrar um produto
-GET	/api/produtos	Listar todos os produtos
-GET	/api/produtos/{id}	Buscar produto por ID
-PUT	/api/produtos/{id}	Atualizar produto
-DELETE	/api/produtos/{id}	Deletar produto
-PATCH	/api/produtos/{id}/baixa	Dar baixa no estoque
-PATCH	/api/produtos/{id}/repor	Repor estoque
-GET	/api/movimentacoes	Listar todas as movimentações
-GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto
+POST	/api/produtos	Cadastrar um produto  
+GET	/api/produtos	Listar todos os produtos  
+GET	/api/produtos/{id}	Buscar produto por ID  
+PUT	/api/produtos/{id}	Atualizar produto  
+DELETE	/api/produtos/{id}	Deletar produto  
+PATCH	/api/produtos/{id}/baixa	Dar baixa no estoque  
+PATCH	/api/produtos/{id}/repor	Repor estoque  
+GET	/api/movimentacoes	Listar todas as movimentações  
+GET	/api/movimentacoes/produto/{id}	Listar movimentações de um produto  
 
 📦 Exemplo de JSON para cadastro de produto
 {
