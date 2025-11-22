@@ -28,11 +28,11 @@ Sistema de controle de estoque para o armazém **Diamante**, desenvolvido com **
 
 Configure o banco de dados no arquivo application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/estoque_diamante
-spring.datasource.username=root
-spring.datasource.password=123456
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+spring.datasource.url=jdbc:mysql://localhost:3306/estoque_diamante  
+spring.datasource.username=root  
+spring.datasource.password=123456  
+spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.show-sql=true  
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 
