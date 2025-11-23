@@ -120,3 +120,6 @@ Registro de movimentações (entrada e saída)
 Utilize o Swagger para testar todos os endpoints de forma visual.
 
 O campo responsavel nas operações de estoque deve conter o nome do usuário responsável pela movimentação.
+
+## 5.1 Link do Sistema de Gestão e apresentação com video do sistema rodando
+APRESENTAÇÂO CANVA: https://www.canva.com/design/DAG5b3ohf20/oPaLRcbsimcmrFHDuRos8Q/edit?utm_content=DAG5b3ohf20&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
